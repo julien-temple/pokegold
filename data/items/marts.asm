@@ -123,12 +123,17 @@ MartGoldenrod3F:
 	db -1 ; end
 
 MartGoldenrod4F:
-	db 5 ; # items
+	db 11 ; # items
 	db PROTEIN
 	db IRON
 	db CARBOS
 	db CALCIUM
 	db HP_UP
+	db WATER_STONE ;modified
+	db FIRE_STONE
+	db THUNDERSTONE
+	db LEAF_STONE
+	db MOON_STONE
 	db -1 ; end
 
 MartGoldenrod5F1:
