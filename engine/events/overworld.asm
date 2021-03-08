@@ -1033,10 +1033,15 @@ BouldersMayMoveText:
 	text_end
 
 TryStrengthOW:
-	ld d, STRENGTH
-	call CheckPartyMove
-	jr c, .nope
 
+;	ld d, STRENGTH
+;	call CheckPartyMove
+;	jr c, .nope
+
+	ld d, STRENGTH
+	call CheckItem
+	jr c, .nope
+	
 	ld de, ENGINE_PLAINBADGE
 	call CheckEngineFlag
 	jr c, .nope

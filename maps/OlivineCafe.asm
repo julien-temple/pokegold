@@ -56,6 +56,8 @@ OlivineCafeStrengthSailorText_GotStrength:
 	line "buff bod!"
 	done
 
+
+
 OlivineCafeFishingGuruText:
 	text "Crossing the sea?"
 	line "Then listen up!"

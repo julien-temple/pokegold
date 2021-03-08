@@ -63,14 +63,14 @@ _AlreadyUsingStrengthText::
 	prompt
 
 _UseStrengthText::
-	text_ram wStringBuffer2
-	text " used"
-	line "STRENGTH!"
+	;text_ram wStringBuffer2
+	text "You use "
+	line "STRENGTH !"
 	done
 
 _MoveBoulderText::
-	text_ram wStringBuffer1
-	text " can"
+	;text_ram wStringBuffer1
+	text "You can"
 	line "move boulders."
 	prompt
 
@@ -81,6 +81,7 @@ _AskStrengthText::
 	para "Want to use"
 	line "STRENGTH?"
 	done
+
 
 _BouldersMoveText::
 	text "Boulders may now"

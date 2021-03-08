@@ -354,7 +354,6 @@ WaterStoneDesc:
 
 TeruSama2Desc:
 	db   "?@"
-
 HPUpDesc:
 	db   "Raises the HP of"
 	next "one #MON.@"

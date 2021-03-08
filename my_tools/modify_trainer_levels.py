@@ -38,7 +38,6 @@ nb_lines = len(lines)
 olines = []
 level_max = 0
 for line in lines :
-    
     if ';' not in line :
         try :
             level = int(re.search(r'\d+', line).group())
@@ -47,9 +46,12 @@ for line in lines :
                 new_level = 100
                 
             new_line = re.sub("\d+", str(new_level), line)
-
             if new_level > level_max :
                 level_max = new_level
+                
+            if 'CONVERSION' in line :
+                new_line = line
+            
         except:
             new_line = line
     else :
@@ -57,10 +59,9 @@ for line in lines :
         
     olines.append(new_line)
     
-
 ofile = open(ofile_name, 'w')
-
 for oline in olines :
     ofile.write(oline)
+
 ofile.close()
 
