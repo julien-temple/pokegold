@@ -1830,8 +1830,8 @@ _CantUseItemText::
 	prompt
 
 _UseCutText::
-	text_ram wStringBuffer2
-	text " used"
+	;text_ram wStringBuffer2
+	text "You used"
 	line "CUT!"
 	prompt
 

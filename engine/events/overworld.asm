@@ -1745,8 +1745,12 @@ GotOffBikeText:
 	text_end
 
 TryCutOW::
+;	ld d, CUT
+;	call CheckPartyMove
+;	jr c, .cant_cut
+
 	ld d, CUT
-	call CheckPartyMove
+	call CheckItem
 	jr c, .cant_cut
 
 	ld de, ENGINE_HIVEBADGE
