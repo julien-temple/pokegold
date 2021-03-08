@@ -1177,9 +1177,14 @@ DisappearWhirlpool:
 	ret
 
 TryWhirlpoolOW::
+;	ld d, WHIRLPOOL
+;	call CheckPartyMove
+;	jr c, .failed
+
 	ld d, WHIRLPOOL
-	call CheckPartyMove
+	call CheckItem
 	jr c, .failed
+
 	ld de, ENGINE_GLACIERBADGE
 	call CheckEngineFlag
 	jr c, .failed

@@ -94,8 +94,8 @@ _BouldersMayMoveText::
 	done
 
 _UseWhirlpoolText::
-	text_ram wStringBuffer2
-	text " used"
+	;text_ram wStringBuffer2
+	text "You used"
 	line "WHIRLPOOL!"
 	prompt
 
