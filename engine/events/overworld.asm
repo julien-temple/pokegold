@@ -682,9 +682,14 @@ Script_UsedWaterfall:
 	text_end
 
 TryWaterfallOW::
+;	ld d, WATERFALL
+;	call CheckPartyMove
+;	jr c, .failed
+
 	ld d, WATERFALL
-	call CheckPartyMove
+	call CheckItem
 	jr c, .failed
+
 	ld de, ENGINE_RISINGBADGE
 	call CheckEngineFlag
 	jr c, .failed

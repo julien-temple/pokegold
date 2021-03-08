@@ -14,8 +14,8 @@ _AskSurfText::
 	done
 
 _UseWaterfallText::
-	text_ram wStringBuffer2
-	text " used"
+;	text_ram wStringBuffer2
+	text "You used"
 	line "WATERFALL!"
 	done
 
