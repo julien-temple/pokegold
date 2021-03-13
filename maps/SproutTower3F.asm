@@ -77,6 +77,7 @@ SageLiScript:
 	writetext SageLiTakeThisFlashText
 	promptbutton
 	verbosegiveitem HM_FLASH
+	verbosegiveitem FLASHLIGHT
 	setevent EVENT_GOT_HM05_FLASH
 	setevent EVENT_BEAT_SAGE_LI
 	writetext SageLiFlashExplanationText
@@ -245,6 +246,9 @@ SageLiFlashExplanationText:
 	text "FLASH illuminates"
 	line "even the darkest"
 	cont "of all places."
+
+	para "You can also use"
+	line "a FLASHLIGHT."
 
 	para "But to use it out"
 	line "of battle, you"

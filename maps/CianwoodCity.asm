@@ -38,6 +38,7 @@ CianwoodCityChucksWife:
 	writetext ChucksWifeGiveHMText
 	promptbutton
 	verbosegiveitem HM_FLY
+	verbosegiveitem FLY_PASS
 	iffalse .Done
 	setevent EVENT_GOT_HM02_FLY
 	writetext ChucksWifeFlySpeechText
@@ -118,6 +119,10 @@ ChucksWifeGiveHMText:
 
 	para "Then you should"
 	line "take this HM."
+
+	para "You can also use"
+	line "the FLY PASS !"
+
 	done
 
 ChucksWifeFlySpeechText:

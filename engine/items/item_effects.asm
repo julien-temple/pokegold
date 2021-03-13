@@ -37,7 +37,7 @@ ItemEffects:
 	dw EvoStoneEffect      ; FIRE_STONE
 	dw EvoStoneEffect      ; THUNDERSTONE
 	dw EvoStoneEffect      ; WATER_STONE
-	dw NoEffect            ; ITEM_19
+	dw FlashlightEffect    ; FLASHLIGHT    (ajoute par moi)
 	dw VitaminEffect       ; HP_UP
 	dw VitaminEffect       ; PROTEIN
 	dw VitaminEffect       ; IRON
@@ -147,7 +147,7 @@ ItemEffects:
 	dw NoEffect            ; STAR_PIECE
 	dw BasementKeyEffect   ; BASEMENT_KEY
 	dw NoEffect            ; PASS
-	dw NoEffect            ; ITEM_87
+	dw FlyPassEffect       ; FLY_PASS
 	dw NoEffect            ; ITEM_88
 	dw NoEffect            ; ITEM_89
 	dw NoEffect            ; CHARCOAL
@@ -2887,4 +2887,12 @@ GetMthMoveOfCurrentMon:
 	ld c, a
 	ld b, 0
 	add hl, bc
+	ret
+
+FlashlightEffect:
+	farcall FlashFunction
+	ret
+
+FlyPassEffect:
+	farcall FlyFunction
 	ret

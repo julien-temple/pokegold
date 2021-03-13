@@ -24,7 +24,7 @@ ItemDescriptions:
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
-	dw TeruSama2Desc
+	dw FlashlightDesc
 	dw HPUpDesc
 	dw ProteinDesc
 	dw IronDesc
@@ -134,7 +134,7 @@ ItemDescriptions:
 	dw StarPieceDesc
 	dw BasementKeyDesc
 	dw PassDesc
-	dw TeruSama13Desc
+	dw FlyPassDesc
 	dw TeruSama14Desc
 	dw TeruSama15Desc
 	dw CharcoalDesc
@@ -352,8 +352,10 @@ WaterStoneDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
 
-TeruSama2Desc:
-	db   "?@"
+FlashlightDesc:
+	db   "Lights dark"
+	next "places"
+
 HPUpDesc:
 	db   "Raises the HP of"
 	next "one #MON.@"
@@ -774,8 +776,9 @@ PassDesc:
 	db   "A ticket for the"
 	next "MAGNET TRAIN.@"
 
-TeruSama13Desc:
-	db   "?@"
+FlyPassDesc:
+	db   "Allow to fly "
+	next "your #MON.@"
 
 TeruSama14Desc:
 	db   "?@"

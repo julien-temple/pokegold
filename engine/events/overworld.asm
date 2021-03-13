@@ -686,9 +686,9 @@ TryWaterfallOW::
 ;	call CheckPartyMove
 ;	jr c, .failed
 
-	ld d, WATERFALL
-	call CheckItem
-	jr c, .failed
+;	ld d, WATERFALL
+;	call CheckItem
+;	jr c, .failed
 
 	ld de, ENGINE_RISINGBADGE
 	call CheckEngineFlag
@@ -1043,9 +1043,9 @@ TryStrengthOW:
 ;	call CheckPartyMove
 ;	jr c, .nope
 
-	ld d, STRENGTH
-	call CheckItem
-	jr c, .nope
+;	ld d, STRENGTH
+;	call CheckItem
+;	jr c, .nope
 	
 	ld de, ENGINE_PLAINBADGE
 	call CheckEngineFlag
@@ -1181,9 +1181,9 @@ TryWhirlpoolOW::
 ;	call CheckPartyMove
 ;	jr c, .failed
 
-	ld d, WHIRLPOOL
-	call CheckItem
-	jr c, .failed
+;	ld d, WHIRLPOOL
+;	call CheckItem
+;	jr c, .failed
 
 	ld de, ENGINE_GLACIERBADGE
 	call CheckEngineFlag
@@ -1764,9 +1764,9 @@ TryCutOW::
 ;	call CheckPartyMove
 ;	jr c, .cant_cut
 
-	ld d, CUT
-	call CheckItem
-	jr c, .cant_cut
+;	ld d, CUT
+;	call CheckItem
+;	jr c, .cant_cut
 
 	ld de, ENGINE_HIVEBADGE
 	call CheckEngineFlag
