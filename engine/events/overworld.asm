@@ -1401,14 +1401,10 @@ AskRockSmashText:
 	text_end
 
 HasRockSmash:
-;	ld d, ROCK_SMASH
-;	call CheckPartyMove
-;	jr nc, .yes
 
 	ld d, ROCK_SMASH
-	call CheckItem
+	call CheckPartyMove
 	jr nc, .yes
-
 ; no
 	ld a, 1
 	jr .done

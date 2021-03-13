@@ -18,7 +18,6 @@ import json
 
 
 
-
 #=============================================================================
 # Functions
 #=============================================================================
@@ -123,8 +122,6 @@ def pkmn_name_gold_to_showdown(name_gold):
 
 def create_new_tmhmset(pokemon):
     
-
-
     shdw_learnset = read_showdown_learnset()
     gold_moves_data = get_gold_moves_list()
     
@@ -178,6 +175,10 @@ def create_new_tmhmset(pokemon):
 
 
 
+def level_modifier(level):
+    new_level = level*(1+((100**2-level**2)/100**2)*0.25)
+    return new_level
+
 
 if __name__ == '__main__' :
     
@@ -188,4 +189,8 @@ if __name__ == '__main__' :
     c = read_showdown_learnset()
     d = create_new_tmhmset('nidoran_f')
     e = get_gold_tmhm_list()
+    
+    x = np.linspace(0,100, 200)
+    
+
     

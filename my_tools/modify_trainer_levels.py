@@ -49,7 +49,7 @@ for line in lines :
             if new_level > level_max :
                 level_max = new_level
                 
-            if 'CONVERSION' in line :
+            if 'CONVERSION2' in line :
                 new_line = line
             
         except:
