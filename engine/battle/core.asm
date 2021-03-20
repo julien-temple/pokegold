@@ -5442,6 +5442,21 @@ MoveInfoBox:
 	and PP_MASK
 	ld [wStringBuffer1], a
 
+
+	hlcoord 7, 11
+	ld [hl], "/"
+
+	hlcoord 5, 11
+	ld de, wStringBuffer1
+	lb bc, 1, 2
+	call PrintNum
+
+	hlcoord 8, 11
+	ld de, wNamedObjectIndex
+	lb bc, 1, 2
+	call PrintNum
+
+
 	callfar UpdateMoveData
 	ld a, [wPlayerMoveStruct + MOVE_ANIM]   ; added
 	ld b, a
@@ -5452,20 +5467,21 @@ MoveInfoBox:
 	ld de, wStringBuffer1
 	call PlaceString
 
-	;hlcoord 7, 11
-	ld h, b
-	ld l, c
-	
-	ld [hl], "/"
-	hlcoord 5, 11
-	ld de, wStringBuffer1
-	lb bc, 1, 2
-	call PrintNum
 
-	hlcoord 8, 11
-	ld de, wNamedObjectIndex
-	lb bc, 1, 2
-	call PrintNum
+	;hlcoord 7, 11
+	;ld h, b
+	;ld l, c
+	;ld [hl], "/"
+
+	;hlcoord 5, 11
+	;ld de, wStringBuffer1
+	;lb bc, 1, 2
+	;call PrintNum
+
+	;hlcoord 8, 11
+	;ld de, wNamedObjectIndex
+	;lb bc, 1, 2
+	;call PrintNum
 
 	;callfar UpdateMoveData
 	ld a, [wPlayerMoveStruct + MOVE_ANIM]

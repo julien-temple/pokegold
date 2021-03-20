@@ -64,7 +64,7 @@ JohtoGrassWildMons:
 	db 22, RATTATA
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 	; day
 	db 20, RATTATA
@@ -80,7 +80,7 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 
 	map_id TIN_TOWER_3F
@@ -91,7 +91,7 @@ JohtoGrassWildMons:
 	db 22, RATTATA
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 	; day
 	db 20, RATTATA
@@ -107,7 +107,7 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 
 	map_id TIN_TOWER_4F
@@ -118,7 +118,7 @@ JohtoGrassWildMons:
 	db 22, RATTATA
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 	; day
 	db 20, RATTATA
@@ -134,7 +134,7 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 
 	map_id TIN_TOWER_5F
@@ -145,7 +145,7 @@ JohtoGrassWildMons:
 	db 22, RATTATA
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 	; day
 	db 20, RATTATA
@@ -161,7 +161,7 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 
 	map_id TIN_TOWER_6F
@@ -172,7 +172,7 @@ JohtoGrassWildMons:
 	db 22, RATTATA
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 	; day
 	db 20, RATTATA
@@ -188,7 +188,7 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 
 	map_id TIN_TOWER_7F
@@ -199,7 +199,7 @@ JohtoGrassWildMons:
 	db 22, RATTATA
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 	; day
 	db 20, RATTATA
@@ -215,7 +215,7 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 
 	map_id TIN_TOWER_8F
@@ -226,7 +226,7 @@ JohtoGrassWildMons:
 	db 22, RATTATA
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 	; day
 	db 20, RATTATA
@@ -242,7 +242,7 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 
 	map_id TIN_TOWER_9F
@@ -253,7 +253,7 @@ JohtoGrassWildMons:
 	db 22, RATTATA
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 	; day
 	db 20, RATTATA
@@ -269,7 +269,7 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
 	db 24, RATTATA
 
 	map_id BURNED_TOWER_1F
@@ -297,7 +297,7 @@ JohtoGrassWildMons:
 	db 14, ZUBAT
 	db 16, KOFFING
 	db 15, RATICATE
-	db 15, RATICATE
+	db 15, HOUNDOUR
 
 	map_id BURNED_TOWER_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -308,7 +308,7 @@ JohtoGrassWildMons:
 	db 16, RATTATA
 	db 15, ZUBAT
 	db 14, MAGMAR
-	db 14, MAGMAR
+	db 10, CHARMANDER
 	; day
 	db 14, RATTATA
 	db 14, KOFFING
@@ -337,7 +337,7 @@ JohtoGrassWildMons:
 	db 12, PIDGEY
 	db 10, PIDGEY
 	db 14, PIDGEY
-	db 14, PIDGEY
+	db 14, PICHU
 	; day
 	db 10, CATERPIE
 	db 10, METAPOD
@@ -345,7 +345,7 @@ JohtoGrassWildMons:
 	db 12, PIDGEY
 	db 13, SUNKERN
 	db 14, PIDGEY
-	db 14, PIDGEY
+	db 5, ELEKID
 
 	ELIF DEF(_SILVER)
 	; morn
@@ -355,7 +355,7 @@ JohtoGrassWildMons:
 	db 12, PIDGEY
 	db 10, PIDGEY
 	db 14, PIDGEY
-	db 14, PIDGEY
+	db 5, PICHU
 	; day
 	db 10, WEEDLE
 	db 10, KAKUNA
@@ -363,7 +363,7 @@ JohtoGrassWildMons:
 	db 12, PIDGEY
 	db 13, SUNKERN
 	db 14, PIDGEY
-	db 14, PIDGEY
+	db 5, ELEKID
 	ENDC
 
 	; nite
@@ -373,7 +373,7 @@ JohtoGrassWildMons:
 	db 12, HOOTHOOT
 	db 10, HOOTHOOT
 	db 14, HOOTHOOT
-	db 14, HOOTHOOT
+	db 5, CLEFFA
 
 	map_id RUINS_OF_ALPH_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -398,7 +398,7 @@ JohtoGrassWildMons:
 	db 22, NATU
 	db 18, NATU
 	db 24, NATU
-	db 20, SMEARGLE
+	db 20, MURKROW
 	db 22, SMEARGLE
 	db 22, SMEARGLE
 
@@ -456,7 +456,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 6, CUBONE
 
 	ELIF DEF(_SILVER)
 	; morn
@@ -466,7 +466,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 6, CUBONE
 	; day
 	db 6, GEODUDE
 	db 6, RATTATA
@@ -496,7 +496,7 @@ JohtoGrassWildMons:
 	db 8, ONIX
 	db 9, ZUBAT
 	db 6, RATTATA
-	db 6, RATTATA
+	db 6, CUBONE
 	; day
 	db 8, GEODUDE
 	db 8, SANDSHREW
@@ -512,20 +512,20 @@ JohtoGrassWildMons:
 	db 8, ONIX
 	db 9, ZUBAT
 	db 6, RATTATA
-	db 6, RATTATA
+	db 6, CUBONE
 
 	ELIF DEF(_SILVER)
 	; morn
 	db 8, GEODUDE
-	db 8, RATTATA
+	db 8, SANDSHREW
 	db 7, ZUBAT
 	db 8, ONIX
 	db 9, ZUBAT
 	db 6, RATTATA
-	db 6, RATTATA
+	db 6, CUBONE
 	; day
 	db 8, GEODUDE
-	db 8, RATTATA
+	db 8, SANDSHREW
 	db 7, ZUBAT
 	db 8, ONIX
 	db 9, ZUBAT
@@ -533,12 +533,12 @@ JohtoGrassWildMons:
 	db 6, RATTATA
 	; nite
 	db 8, GEODUDE
-	db 8, RATTATA
+	db 8, SANDSHREW
 	db 7, ZUBAT
 	db 8, ONIX
 	db 9, ZUBAT
 	db 6, RATTATA
-	db 6, RATTATA
+	db 6, CUBONE
 	ENDC
 
 	map_id UNION_CAVE_B2F
@@ -633,7 +633,7 @@ JohtoGrassWildMons:
 	db 5, PARAS
 	db 5, ZUBAT
 	db 6, PARAS
-	db 6, PARAS
+	db 6, BULBASAUR
 	; day
 	db 5, CATERPIE
 	db 6, CATERPIE
@@ -651,7 +651,7 @@ JohtoGrassWildMons:
 	db 5, PARAS
 	db 5, ZUBAT
 	db 6, PARAS
-	db 6, PARAS
+	db 10, BULBASAUR
 	; day
 	db 5, WEEDLE
 	db 6, WEEDLE
@@ -687,7 +687,7 @@ JohtoGrassWildMons:
 	db 14, MACHOP
 	db 14, RATTATA
 	db 14, GEODUDE
-	db 16, RATTATA
+	db 16, DIGLETT
 	db 15, MARILL
 	; nite
 	db 13, ZUBAT
@@ -734,7 +734,7 @@ JohtoGrassWildMons:
 	db 30, RATICATE
 	db 28, MACHOP
 	db 30, GOLBAT
-	db 30, GOLBAT
+	db 25, KANGASKHAN
 	; day
 	db 31, GRAVELER
 	db 32, MACHOKE
@@ -742,7 +742,7 @@ JohtoGrassWildMons:
 	db 30, RATICATE
 	db 28, MACHOP
 	db 30, GOLBAT
-	db 30, GOLBAT
+	db 25, KANGASKHAN
 	; nite
 	db 31, GRAVELER
 	db 32, MACHOKE
@@ -750,7 +750,7 @@ JohtoGrassWildMons:
 	db 30, RATICATE
 	db 28, MACHOP
 	db 30, GOLBAT
-	db 30, GOLBAT
+	db 25, KANGASKHAN
 
 	map_id MOUNT_MORTAR_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -776,7 +776,7 @@ JohtoGrassWildMons:
 	db 16, RATTATA
 	db 16, MACHOP
 	db 16, GEODUDE
-	db 16, RATICATE
+	db 16, EKANS
 	db 16, RATICATE
 
 	map_id ICE_PATH_1F
@@ -805,8 +805,8 @@ JohtoGrassWildMons:
 	db 22, ZUBAT
 	db 23, SWINUB
 	db 22, ZUBAT
-	db 22, JYNX
-	db 22, JYNX
+	db 22, SNEASEL
+	db 22, SNEASEL
 
 	ELIF DEF(_SILVER)
 	; morn
@@ -831,8 +831,8 @@ JohtoGrassWildMons:
 	db 22, DELIBIRD
 	db 23, SWINUB
 	db 22, ZUBAT
-	db 22, JYNX
-	db 22, JYNX
+	db 22, SNEASEL
+	db 22, SNEASEL
 	ENDC
 
 	map_id ICE_PATH_B1F
@@ -861,8 +861,8 @@ JohtoGrassWildMons:
 	db 22, ZUBAT
 	db 23, SWINUB
 	db 22, ZUBAT
-	db 22, JYNX
-	db 22, JYNX
+	db 22, SNEASEL
+	db 22, SNEASEL
 
 	ELIF DEF(_SILVER)
 	; morn
@@ -887,8 +887,8 @@ JohtoGrassWildMons:
 	db 22, DELIBIRD
 	db 23, SWINUB
 	db 22, ZUBAT
-	db 22, JYNX
-	db 22, JYNX
+	db 22, SNEASEL
+	db 22, SNEASEL
 	ENDC
 
 	map_id ICE_PATH_B2F_MAHOGANY_SIDE
@@ -917,8 +917,8 @@ JohtoGrassWildMons:
 	db 23, ZUBAT
 	db 24, SWINUB
 	db 23, ZUBAT
-	db 23, JYNX
-	db 23, JYNX
+	db 23, SNEASEL
+	db 23, SNEASEL
 
 	ELIF DEF(_SILVER)
 	; morn
@@ -943,8 +943,8 @@ JohtoGrassWildMons:
 	db 23, DELIBIRD
 	db 24, SWINUB
 	db 23, ZUBAT
-	db 23, JYNX
-	db 23, JYNX
+	db 23, SNEASEL
+	db 23, SNEASEL
 	ENDC
 
 	map_id ICE_PATH_B2F_BLACKTHORN_SIDE
@@ -973,8 +973,8 @@ JohtoGrassWildMons:
 	db 23, ZUBAT
 	db 24, SWINUB
 	db 23, ZUBAT
-	db 23, JYNX
-	db 23, JYNX
+	db 23, SNEASEL
+	db 23, SNEASEL
 
 	ELIF DEF(_SILVER)
 	; morn
@@ -999,8 +999,8 @@ JohtoGrassWildMons:
 	db 23, DELIBIRD
 	db 24, SWINUB
 	db 23, ZUBAT
-	db 23, JYNX
-	db 23, JYNX
+	db 23, SNEASEL
+	db 23, SNEASEL
 	ENDC
 
 	map_id ICE_PATH_B3F
@@ -1029,8 +1029,8 @@ JohtoGrassWildMons:
 	db 24, ZUBAT
 	db 25, SWINUB
 	db 24, ZUBAT
-	db 24, JYNX
-	db 24, JYNX
+	db 24, SNEASEL
+	db 24, SNEASEL
 
 	ELIF DEF(_SILVER)
 	; morn
@@ -1055,8 +1055,8 @@ JohtoGrassWildMons:
 	db 24, DELIBIRD
 	db 25, SWINUB
 	db 24, ZUBAT
-	db 24, JYNX
-	db 24, JYNX
+	db 24, SNEASEL
+	db 24, SNEASEL
 	ENDC
 
 	map_id WHIRL_ISLAND_NW
@@ -1094,7 +1094,7 @@ JohtoGrassWildMons:
 	db 24, KRABBY
 	db 22, SEEL
 	db 23, GOLBAT
-	db 24, SEEL
+	db 24, SHELLDER
 	db 24, SEEL
 	; day
 	db 22, KRABBY
@@ -1102,7 +1102,7 @@ JohtoGrassWildMons:
 	db 24, KRABBY
 	db 22, SEEL
 	db 23, GOLBAT
-	db 24, SEEL
+	db 24, SHELLDER
 	db 24, SEEL
 	; nite
 	db 22, KRABBY
@@ -1121,7 +1121,7 @@ JohtoGrassWildMons:
 	db 24, KRABBY
 	db 22, SEEL
 	db 23, GOLBAT
-	db 24, SEEL
+	db 24, SHELLDER
 	db 24, SEEL
 	; day
 	db 22, KRABBY
@@ -1129,7 +1129,7 @@ JohtoGrassWildMons:
 	db 24, KRABBY
 	db 22, SEEL
 	db 23, GOLBAT
-	db 24, SEEL
+	db 24, SHELLDER
 	db 24, SEEL
 	; nite
 	db 22, KRABBY
@@ -1148,7 +1148,7 @@ JohtoGrassWildMons:
 	db 24, KRABBY
 	db 22, SEEL
 	db 23, GOLBAT
-	db 24, SEEL
+	db 24, SHELLDER
 	db 24, SEEL
 	; day
 	db 22, KRABBY
@@ -1156,7 +1156,7 @@ JohtoGrassWildMons:
 	db 24, KRABBY
 	db 22, SEEL
 	db 23, GOLBAT
-	db 24, SEEL
+	db 24, SHELLDER
 	db 24, SEEL
 	; nite
 	db 22, KRABBY
@@ -1175,7 +1175,7 @@ JohtoGrassWildMons:
 	db 24, KRABBY
 	db 22, SEEL
 	db 23, GOLBAT
-	db 24, SEEL
+	db 24, SHELLDER
 	db 24, SEEL
 	; day
 	db 22, KRABBY
@@ -1183,7 +1183,7 @@ JohtoGrassWildMons:
 	db 24, KRABBY
 	db 22, SEEL
 	db 23, GOLBAT
-	db 24, SEEL
+	db 24, SHELLDER
 	db 24, SEEL
 	; nite
 	db 22, KRABBY
@@ -1202,7 +1202,7 @@ JohtoGrassWildMons:
 	db 25, KRABBY
 	db 23, SEEL
 	db 24, GOLBAT
-	db 25, SEEL
+	db 25, SHELLDER
 	db 25, SEEL
 	; day
 	db 23, KRABBY
@@ -1210,7 +1210,7 @@ JohtoGrassWildMons:
 	db 25, KRABBY
 	db 23, SEEL
 	db 24, GOLBAT
-	db 25, SEEL
+	db 25, SHELLDER
 	db 25, SEEL
 	; nite
 	db 23, KRABBY
@@ -1302,7 +1302,7 @@ JohtoGrassWildMons:
 	db 43, GRAVELER
 	db 45, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 50, GENGAR
 
 	ELIF DEF(_SILVER)
 	; morn
@@ -1328,7 +1328,7 @@ JohtoGrassWildMons:
 	db 43, GRAVELER
 	db 45, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 50, GENGAR
 	ENDC
 
 	map_id SILVER_CAVE_ROOM_2
@@ -1358,7 +1358,7 @@ JohtoGrassWildMons:
 	db 45, MISDREAVUS
 	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 50, GENGAR
 
 	ELIF DEF(_SILVER)
 	; morn
@@ -1384,7 +1384,7 @@ JohtoGrassWildMons:
 	db 45, MISDREAVUS
 	db 48, GOLBAT
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 50, GENGAR
 	ENDC
 
 	map_id SILVER_CAVE_ROOM_3
@@ -1419,28 +1419,28 @@ JohtoGrassWildMons:
 	ELIF DEF(_SILVER)
 	; morn
 	db 51, GOLBAT
-	db 48, ONIX
+	db 48, STEELIX
 	db 48, GOLBAT
 	db 50, DONPHAN
 	db 51, GOLDUCK
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 55, MACHAMP
 	; day
 	db 51, GOLBAT
-	db 48, ONIX
-	db 48, GOLBAT
+	db 48, STEELIX
+	db 48, RHYDON
 	db 50, DONPHAN
 	db 51, GOLDUCK
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 55, NIDOKING
 	; nite
 	db 51, GOLBAT
-	db 48, ONIX
-	db 48, GOLBAT
+	db 48, STEELIX
+	db 48, RHYDON
 	db 50, DONPHAN
 	db 51, GOLDUCK
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 55, TYRANITAR
 	ENDC
 
 	map_id SILVER_CAVE_ITEM_ROOMS
@@ -1710,7 +1710,7 @@ JohtoGrassWildMons:
 	db 6, MAREEP
 	db 6, HOPPIP
 	db 6, RATTATA
-	db 8, RATTATA
+	db 8, EKANS
 	db 8, RATTATA
 	; nite
 	db 6, WOOPER
@@ -1719,7 +1719,7 @@ JohtoGrassWildMons:
 	db 6, MAREEP
 	db 8, WOOPER
 	db 8, ZUBAT
-	db 8, ZUBAT
+	db 8, EKANS
 
 	ELIF DEF(_SILVER)
 	; morn
@@ -1736,7 +1736,7 @@ JohtoGrassWildMons:
 	db 6, MAREEP
 	db 6, HOPPIP
 	db 6, RATTATA
-	db 8, RATTATA
+	db 8, MAREEP
 	db 8, RATTATA
 	; nite
 	db 6, WOOPER
@@ -1766,7 +1766,7 @@ JohtoGrassWildMons:
 	db 6, SPEAROW
 	db 6, RATTATA
 	db 8, HOPPIP
-	db 8, RATTATA
+	db 8, EKANS
 	db 8, RATTATA
 	; nite
 	db 6, ZUBAT
@@ -1774,7 +1774,7 @@ JohtoGrassWildMons:
 	db 6, RATTATA
 	db 6, RATTATA
 	db 8, ZUBAT
-	db 8, ZUBAT
+	db 8, EKANS
 	db 8, ZUBAT
 
 	ELIF DEF(_SILVER)
@@ -1784,7 +1784,7 @@ JohtoGrassWildMons:
 	db 6, SPEAROW
 	db 6, RATTATA
 	db 8, HOPPIP
-	db 4, ZUBAT
+	db 4, MAREEP
 	db 4, ZUBAT
 	; day
 	db 6, HOPPIP
@@ -1792,7 +1792,7 @@ JohtoGrassWildMons:
 	db 6, SPEAROW
 	db 6, RATTATA
 	db 8, HOPPIP
-	db 8, RATTATA
+	db 8, MAREEP
 	db 8, RATTATA
 	; nite
 	db 6, ZUBAT
@@ -1897,7 +1897,7 @@ JohtoGrassWildMons:
 	db 13, PIDGEY
 	db 13, GROWLITHE
 	db 13, STANTLER
-	db 15, PIDGEY
+	db 15, VULPIX
 	db 15, PIDGEY
 	; day
 	db 12, NIDORAN_M
@@ -1905,7 +1905,7 @@ JohtoGrassWildMons:
 	db 14, PIDGEY
 	db 13, GROWLITHE
 	db 13, STANTLER
-	db 15, GROWLITHE
+	db 15, VULPIX
 	db 15, GROWLITHE
 	; nite
 	db 12, NIDORAN_M
@@ -1923,7 +1923,7 @@ JohtoGrassWildMons:
 	db 13, PIDGEY
 	db 13, VULPIX
 	db 13, STANTLER
-	db 15, PIDGEY
+	db 15, GROWLITHE
 	db 15, PIDGEY
 	; day
 	db 12, NIDORAN_F
@@ -1931,7 +1931,7 @@ JohtoGrassWildMons:
 	db 14, PIDGEY
 	db 13, VULPIX
 	db 13, STANTLER
-	db 15, VULPIX
+	db 15, GROWLITHE
 	db 15, VULPIX
 	; nite
 	db 12, NIDORAN_F
@@ -2065,7 +2065,7 @@ JohtoGrassWildMons:
 	db 16, FARFETCH_D
 	db 15, MILTANK
 	db 15, TAUROS
-	db 15, TAUROS
+	db 15, CHANSEY
 	; day
 	db 16, RATTATA
 	db 17, RATICATE
@@ -2092,7 +2092,7 @@ JohtoGrassWildMons:
 	db 16, FARFETCH_D
 	db 15, MILTANK
 	db 15, TAUROS
-	db 15, TAUROS
+	db 15, CHANSEY
 	; day
 	db 16, MEOWTH
 	db 17, RATICATE
@@ -2136,7 +2136,7 @@ JohtoGrassWildMons:
 	db 13, MAREEP
 	db 14, ZUBAT
 	db 16, ZUBAT
-	db 15, FLAAFFY
+	db 15, GRIMER
 	db 17, FLAAFFY
 	db 17, FLAAFFY
 
@@ -2162,7 +2162,7 @@ JohtoGrassWildMons:
 	db 14, ZUBAT
 	db 15, MAREEP
 	db 16, ZUBAT
-	db 15, FLAAFFY
+	db 15, GRIMER
 	db 17, FLAAFFY
 	db 17, FLAAFFY
 	ENDC
@@ -2191,7 +2191,7 @@ JohtoGrassWildMons:
 	db 17, NOCTOWL
 	db 16, VENONAT
 	db 15, MAREEP
-	db 16, VENONAT
+	db 16, GRIMER
 	db 16, VENONAT
 
 	map_id ROUTE_44
@@ -2232,7 +2232,7 @@ JohtoGrassWildMons:
 	db 20, TEDDIURSA
 	db 25, GRAVELER
 	db 27, GRAVELER
-	db 27, GRAVELER
+	db 27, SKARMORY
 	; day
 	db 23, GEODUDE
 	db 23, GRAVELER
@@ -2240,7 +2240,7 @@ JohtoGrassWildMons:
 	db 20, TEDDIURSA
 	db 25, GRAVELER
 	db 27, GRAVELER
-	db 27, GRAVELER
+	db 27, PHANPY
 	; nite
 	db 23, GEODUDE
 	db 23, GRAVELER
@@ -2315,7 +2315,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
-	db 43, DODRIO
+	db 50, GOLEM
 	; day
 	db 41, TANGELA
 	db 42, PONYTA
@@ -2323,7 +2323,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
-	db 43, DODRIO
+	db 50, GOLEM
 	; nite
 	db 41, TANGELA
 	db 42, PONYTA
@@ -2331,7 +2331,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 38, SNEASEL
 	db 42, SNEASEL
-	db 42, SNEASEL
+	db 50, GENGAR
 
 	ELIF DEF(_SILVER)
 	; morn
@@ -2341,7 +2341,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
-	db 43, DODRIO
+	db 50, GOLEM
 	; day
 	db 41, TANGELA
 	db 42, PONYTA
@@ -2349,7 +2349,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
-	db 43, DODRIO
+	db 50, GOLEM
 	; nite
 	db 41, TANGELA
 	db 42, PONYTA
@@ -2357,7 +2357,7 @@ JohtoGrassWildMons:
 	db 44, RAPIDASH
 	db 38, SNEASEL
 	db 42, SNEASEL
-	db 42, SNEASEL
+	db 50, GENGAR
 	ENDC
 
 	db -1 ; end

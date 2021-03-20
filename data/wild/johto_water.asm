@@ -88,7 +88,7 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 35, SEAKING
 	db 40, SEAKING
-	db 35, GOLDEEN
+	db 45, POLIWRATH
 
 	map_id DARK_CAVE_VIOLET_ENTRANCE
 	db 2 percent ; encounter rate
@@ -232,7 +232,7 @@ JohtoWaterWildMons:
 	db 4 percent ; encounter rate
 	db 15, MAGIKARP
 	db 10, MAGIKARP
-	db 5, MAGIKARP
+	db 10, SQUIRTLE
 
 	map_id SILVER_CAVE_OUTSIDE
 	db 2 percent ; encounter rate
